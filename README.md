@@ -20,7 +20,7 @@ Es werden die Daten der letzten 12 Monate genutzt (10.2020 – 09.2021). Diese s
 Wir nutzen SQL für diese Untersuchung. Dazu wurden die Daten in eine Datenbank übertragen. 
 
 # Bereinigung und Analyse der Daten
-Die weiteren Schritte in der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der .sql Datei zu finden. 
+Die weiteren Schritte der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der .sql Datei zu finden. 
 
 # Visualisierung 
 Eine einfache Visualisierung der Ergebnisse ist auf Tableau Public verfügbar. 
