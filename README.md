@@ -21,7 +21,7 @@ Die Daten sind unter folgender Lizenz allgemein verfügbar. https://www.divvybik
 
 ## Vorbereitung der Daten
 Es werden die Daten der letzten 12 Monate genutzt (Oktober 2020 bis September 2021). Diese sind in einzelnen Monaten organisiert. Die Daten wurden vom Unternehmen selbst erhoben. 
-Wir nutzen SQL für diese Untersuchung. Dazu wurden die Daten in eine Datenbank übertragen. 
+Wir nutzen SQL für diese Untersuchung. Dazu wurden die Daten in eine MySQL Datenbank übertragen. 
 
 ## Bereinigung und Analyse der Daten
 Die weiteren Schritte der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der .sql Datei zu finden. Jeder Monat wurde dabei einzeln betrachtet. 
