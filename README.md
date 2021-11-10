@@ -27,7 +27,7 @@ Wir nutzen SQL für diese Untersuchung. Dazu wurden die Daten in eine MySQL Date
 Die weiteren Schritte der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der .sql Datei zu finden. Jeder Monat wurde dabei einzeln betrachtet. 
 
 ## Visualisierung 
-Eine einfache Visualisierung der Ergebnisse ist auf Tableau Public verfügbar. In dieser Visualisierung sind die bereinigten Daten für den Datensatz 202109 enthalten.
+Eine einfache Visualisierung der Hauptunterschiede der beiden Kundentypen ist auf Tableau Public verfügbar. In dieser Visualisierung sind die bereinigten Daten für den Datensatz 202109 enthalten.
 
 https://public.tableau.com/app/profile/patrick5127/viz/NutzerverhaltenUnterschiede/Dashboard1 
 
