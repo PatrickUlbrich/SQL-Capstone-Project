@@ -2,6 +2,20 @@ Es handelt sich hierbei um das Abschlussprojekt (Capstone Project) für das Goog
 Hauptsächlich wurder SQL für das Projekt genutzt. 
 
 
+## Table of Contents
+
+1. [Szenario](https://github.com/PatrickUlbrich/CapstoneProject#szenario)  
+2. [Das Unternehmen](https://github.com/PatrickUlbrich/CapstoneProject#das-unternehmen)
+3. [Hauptfragen](https://github.com/PatrickUlbrich/CapstoneProject#szenario)
+4. [Daten](https://github.com/PatrickUlbrich/CapstoneProject#szenario)
+5. [Vorbereitung der Daten](https://github.com/PatrickUlbrich/CapstoneProject#Vorbereitung-der-Daten)
+6. [Bereinigung und Analyse der Daten](https://github.com/PatrickUlbrich/CapstoneProject#Bereinigung-und-Analyse-der-Daten)
+7. [Visualisierung](https://github.com/PatrickUlbrich/CapstoneProject#szenario)
+8. [Hauptunterschiede zwischen den Kundentypen](https://github.com/PatrickUlbrich/CapstoneProject#Hauptunterschiede-zwischen-den-Kundentypen)
+9. [Empfehlungen für das Marketing](https://github.com/PatrickUlbrich/CapstoneProject#Empfehlungen-für-das-Marketing)
+10. [Ideen und weitere Schritte](https://github.com/PatrickUlbrich/CapstoneProject#Ideen-und-weitere-Schritte)
+
+
 ## Szenario
 In diesem Szenario sind wir ein Data Analyst bei einem fiktiven Bike-Sharing Unternehmen in Chicago. Die Marketingdirektorin glaubt, dass der zukünftige Unternehmenserfolg davon abhängt möglichst viele Jahresmitgliedschaften mit den Kunden abzuschließen. Aus diesem Grund sollen die Unterschiede im Verhalten zwischen „Members“ (Kunden mit Jahresmitgliedschaften) und „Casuals“ (gelegentliche Nutzer, Einzelfahrten oder Tagespässe) herausgefunden werden.
 
@@ -31,7 +45,7 @@ Eine einfache Visualisierung der Hauptunterschiede der beiden Kundentypen ist au
 
 https://public.tableau.com/app/profile/patrick5127/viz/NutzerverhaltenUnterschiede/Dashboard1 
 
-## Hauptunterschiede zwischen den beiden Kundentypen
+## Hauptunterschiede zwischen den Kundentypen
 Die Aufgabe bestand darin die Unterschiede im Nutzerverhalten zwischen den beiden Kundentypen aufzudecken. Die obere Analyse wurde für alle Monatsdaten durchgeführt. 
 Außer für Dezember (wahrscheinlich Weihnachtsgeschäft, Fahrzeiten bei Casuals im Schnitt 3,6x, bei Membern sogar 7x länger als in allen anderen Monaten) zeigte sich stets ein sehr ähnliches Bild bei der Betrachung des Verhaltens der beiden Kundentypen. 
 
