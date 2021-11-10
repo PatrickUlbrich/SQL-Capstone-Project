@@ -38,7 +38,8 @@ Es werden die Daten der letzten 12 Monate genutzt (Oktober 2020 bis September 20
 Wir nutzen SQL für diese Untersuchung. Dazu wurden die Daten in eine MySQL Datenbank übertragen. 
 
 ## Bereinigung und Analyse der Daten
-Die weiteren Schritte der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der .sql Datei zu finden. Jeder Monat wurde dabei einzeln betrachtet. 
+Die weiteren Schritte der Bereinigung und der Analyse der Daten mit Kommentaren zu den Gedanken hinter dem Vorgehen sind in der [.sql Datei](https://github.com/PatrickUlbrich/CapstoneProject/blob/main/bike-sharing%20SQL%20scripts.sql) zu finden. Jeder Monat wurde dabei einzeln betrachtet. 
+
 
 ## Visualisierung 
 Eine einfache Visualisierung der Hauptunterschiede der beiden Kundentypen ist auf Tableau Public verfügbar. In dieser Visualisierung sind die bereinigten Daten für den Datensatz 202109 enthalten.
