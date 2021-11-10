@@ -28,7 +28,7 @@ OR end_station_name LIKE "%test%";
 
 
 /*
-Für die Analyse nehmen wir an, dass wir diese Testdaten aus den Datensätzen entfernen dürfen. */
+Für diese Analyse nehmen wir an, dass wir diese Testdaten aus den Datensätzen entfernen dürfen. */
 DELETE
 FROM 202109_divvy_tripdata
 WHERE
@@ -39,7 +39,7 @@ OR end_station_name LIKE "%test%";
 /*
 Weiter ist bei der Sichtung der Daten aufgefallen, dass einige Null-Werte in den Stationsnamen vorhanden sind. 
 Da diese für die weitere Betrachtung nicht von Bedeutung sind, werden an dieser Stelle keine Änderungen vorgenommen.
-Wir überprüfen, ob sich in für uns relevante Spalten NULL-Werte befinden. */
+Wir überprüfen, ob sich in relevanten Spalten NULL-Werte befinden. */
 SELECT *
 FROM 202109_divvy_tripdata
 WHERE
@@ -52,7 +52,7 @@ WHERE
 
 
 /*
-zusätzlich überprüfen wir, dass in keiner Tabelle andere Einträge als "casual" und "member" für Kundentypen eingetragen sind. */
+zusätzlich überprüfen wir, dass in einer Tabelle keine anderen Einträge als "casual" und "member" für Kundentypen eingetragen sind. */
 SELECT DISTINCT rideable_type
 FROM 202109_divvy_tripdata;
 -- Es sind keine anderen Einträge als "casual" und "member" vorhanden. 
@@ -130,7 +130,7 @@ Die benötigten Daten sind nun bereinigt. Wir können mit der Analyse beginnen.
 
 Wir schauen uns zunächst die minimale, maximale und durchschnittliche Fahrzeit nach Kundentypen an. 
 Alle folgenden Abfragen wollen wir nur auf relevante Spalten beziehen. 
-Zu diesem Zweck erzeugen wir eine temporäre Tabelle mit den für uns wichtigen Spalten, um die Abfragen übersichtlicher zu halten.
+Zu diesem Zweck erzeugen wir eine temporäre Tabelle mit ausschließlich den für uns wichtigen Spalten, um die Abfragen übersichtlicher und effizienter zu halten.
 Alle Zeiten werden auf 2 Nachkommastellen gerundet. */
 
 
@@ -193,7 +193,7 @@ GROUP BY member_casual;
   
   
 /*
-Abschließend erscheint es noch interessant zu wissen, wie die Gesamtzahlen der Kundentypen zwischen Wochenende und Arbeitstagen aufgeteilt ist. */
+Abschließend erscheint es noch interessant zu wissen, wie die Gesamtzahl der Kundentypen zwischen Wochenende und Arbeitstagen aufgeteilt ist. */
  
 -- Anzahl an Fahrten durch Casuals und Members insgesamt 
 SELECT
@@ -202,7 +202,7 @@ SELECT
 FROM RideDuration
 GROUP BY member_type;
 
--- Anzahl an Fahrten durch der Casuals und Members am Wochenende 
+-- Anzahl an Fahrten durch Casuals und Members am Wochenende 
 SELECT
 	member_casual AS member_type,
 	COUNT(member_casual) AS quantity
@@ -212,7 +212,7 @@ WHERE
 	OR WEEKDAY(started_at) = 6
 GROUP BY member_casual;
 
--- Anzahl an Fahrten durch der Casuals und Members an Arbeitstagen
+-- Anzahl an Fahrten durch Casuals und Members an Arbeitstagen
 SELECT
 	member_casual AS member_type,
 	COUNT(member_casual) AS quantity
