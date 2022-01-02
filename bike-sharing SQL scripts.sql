@@ -119,7 +119,7 @@ INNER JOIN
 ON 202109_divvy_tripdata.ride_id = time_change_check.ride_id
 WHERE TIMESTAMPDIFF(SECOND, 202109_divvy_tripdata.started_at, 202109_divvy_tripdata.ended_at) < 0
 ORDER BY TIMESTAMPDIFF(SECOND, time_change_check.started_at, time_change_check.ended_at) DESC;
--- Die Änderungen wurden korrekt durchgeführt wurden.
+-- Die Änderungen wurden korrekt durchgeführt.
 -- wir wenden die obere Abfrage zum Tauschen der Spalteneinträge auf alle Tabellen an. 
 
 
